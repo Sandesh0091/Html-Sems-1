@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .blue-background {
+            background-color: skyblue;
+        }
+
+        .dark-blue {
+            color: darkblue;
+            padding: 5px 5px;
+        }
+
+        .span {
+            color: darkblue;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .table,
+        tr,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 2px;
+        }
+        .dog{
+float: right;
+width: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+       Dog sangit
+    </h1><br>
+<img src="dog.png" class="dog">
+    <div class="blue-background">
+        <h3 class="dark-blue">About</h3>
+    </div>
+
+    <div>Woof Wool</div>
+    <div>Hi, I'm Dog. I love <span class="span">User interface Design.</span></div>
+    <div class="blue-background">
+        <h3 class="dark-blue">Courses</h3>
+    </div>
+    <div>
+        Here are courses i've taken:
+        <br><br>
+        <table class="table">
+            <tr class="table">
+                <td class="table">Course Number</td>
+                <td>Courses Title</td>
+                <td>Semester Taken</td>
+            </tr>
+            <tr>
+                <td class="center" colspan="3">For Credit</td>
+            </tr>
+            <td>6.813</td>
+            <td class="span">User Interface Design</td>
+            <td class="span">Spring 2014</td>
+            <tr>
+                <td>
+                    6.034
+                </td>
+                <td>Artificial Intelligence</td>
+                <td>Fall 2013</td>
+            </tr>
+            <tr>
+                <td>6.006</td>
+                <td>Introduction to algorithms</td>
+                <td>Fall 2013</td>
+            </tr>
+            <tr>
+                <td class="center" colspan="3">Listener</td>
+            </tr>
+            <tr>
+                <td class="span">6.867</td>
+                <td>Machine learning</td>
+                <td>Fall 2013</td>
+            </tr>
+            <tr>
+                <td class="span">6..830</td>
+                <td>Database System</td>
+                <td>Fall 2012</td>
+            </tr>
+        </table>
+    </div><br>
+    <div class="blue-background dark-blue">Interests</div>
+    <div>I am interested NCI, memes, and youtube videos.</div>
+    <br>
+    <div class="blue-background dark-blue">Submit Pet information</div>
+    <div>Would love to know what kinds of pets you 'own' (you'll never own me). Submit below !</div>
+    <br>
+    <div>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name"> </input>
+            <br><br>
+            <label for="phylum">Phylum:</label>
+            <input type="text" id="phylum"> </input>
+            <br><br>
+            Gander:
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="others"></input>
+            <label for="others">Not prefere to say</label>
+            <br><br>
+            <button>Summit</button>
+        </form>
+    </div>
+</body>
+
+</html>
